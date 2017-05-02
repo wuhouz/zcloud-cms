@@ -1,0 +1,8 @@
+/*头部公用*/
+.zhu-ye-top{  height: 50px;  background: #273542;  color: #fff;  position: fixed;  width: 100%;  }
+.zhu-logo{  float: left;  cursor: pointer;  }
+.zhu-logo span{  display: block;  float: right;  line-height: 51px;  font-size: 18px;  padding-left: 10px;  letter-spacing: 1px;  }
+.zhu-tui{  float: right;  line-height: 50px;  }
+.zhu-tui span ,.zhu-tu-biao{  display: block;  float: left;  max-width: 200px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  padding: 0 3px;  }
+.zhu-tu-biao {  padding: 0 20px;  cursor: pointer;  }
+.zhu-tu-biao i{  float: left;  display: block;  line-height: 50px;  padding: 0 2px;  }

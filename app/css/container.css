@@ -1,0 +1,14 @@
+/*所有页面公用样式*/
+*{  margin: 0px;  padding: 0px;  }
+body{  font-size: 12px;  margin: 0;  padding: 0;  }
+ul,li,a{  list-style-type:none;  padding: 0;  }
+.hide{  display: none;  }
+.red{  color: red !important;   }
+.left{float: left; }
+.right{  float: right;  }
+.dian{  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.but-lan{  background-color: #0dc8bd;  border-radius: 3px;  border: 1px solid #0dc8bd;  padding: 5px 10px;  color: #fff;  cursor: pointer;  }
+.but-bai{  background-color: #fff;  border-radius: 3px;  border: 1px solid #ccc;  padding: 5px 10px;  cursor: pointer;  }
+.zhu-se-diao{  color: #0dc8bd !important; cursor: pointer; }
+.hui-se{ color: #aaa;}
+.select{ height: 30px;}

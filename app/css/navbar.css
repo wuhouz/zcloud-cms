@@ -1,0 +1,8 @@
+/*左侧公用*/
+.zhu-ye-left{  width: 100px;  height: 100%;  background: #2c3e4d;  position: fixed;  top:50px;  }
+.zhu-ye-left ul{  padding-top: 25px;  color: #fff;  }
+.zhu-ye-left ul li{  height: 50px;  line-height: 50px;  cursor: pointer;  border-bottom: 1px solid #2c3e4d;  }
+.zhu-ye-left ul li a{  display: block;  padding: 0 14px; color: #fff;  text-decoration:none; }
+.zhu-ye-left ul li a:hover{  display: block;  padding: 0 14px;  background: #0dc8bd;  transition: all ease-out .3s;  }
+.active{  display: block;  padding: 0 14px;  background: #0dc8bd;  transition: all ease-out .3s;  }
+.zhu-ye-left ul li a i{  padding-right: 5px;  }
