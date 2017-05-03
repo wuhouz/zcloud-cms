@@ -7,7 +7,7 @@ import Head from './header';
 import Navbar from './navbar';
 
 import '../../css/container.css';
-// import '../css/font-awesome.css';  TODO
+import '../../css/font-awesome.css';  //TODO
 
 export default class Container extends Component {
     render(){
