@@ -5,17 +5,16 @@ import React, { Component } from 'react';
 
 import Head from './header';
 import Navbar from './navbar';
-import Main from './main';
 
-import '../css/container.css';
+import '../../css/container.css';
+// import '../css/font-awesome.css';  TODO
 
 export default class Container extends Component {
     render(){
         return (
-            <div className="list">
+            <div className="zhu-ye">
                 <Head/>
                 <Navbar/>
-                <Main/>
             </div>
         );
     }

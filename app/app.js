@@ -5,6 +5,6 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 import { render } from 'react-dom';
 
-import Container from './common/container';
+import Container from './components/common/container';
 
 render(<Container/>, $('#content')[0]);
