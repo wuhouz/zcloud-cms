@@ -3,16 +3,16 @@
  */
 import React, { Component } from 'react';
 
-import Head from './header';
-import Navbar from './navbar';
+import Head from './Header';
+import Navbar from './Navbar';
 
-import '../../css/container.css';
-import '../../css/font-awesome.css';  //TODO
+import '../../css/common.css';
+import '../../css/font-awesome.css';
 
 export default class Container extends Component {
     render(){
         return (
-            <div className="zhu-ye">
+            <div className="home">
                 <Head/>
                 <Navbar/>
             </div>

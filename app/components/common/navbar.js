@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import {
     BrowserRouter as Router,
     Route,
+    NavLink,
     Link
 } from 'react-router-dom';
 
@@ -56,29 +57,35 @@ export default class Navbar extends Component {
             activeIndex : 1
         }
     }
+    onclick(match, location){
+        this.state.activeIndex !== -1 && this.setState({
+            activeIndex: -1
+        });
+        // render content of this item   TODO
 
-    click(index){
-        this.setState({
-            activeIndex : index
-    });
+        /*if (!match) {
+            return false
+        }
+        const eventID = parseInt(match.params.eventID)
+        return !isNaN(eventID) && eventID % 2 === 1*/
     }
 
     render(){
         return (
             <Router>
                 <div>
-                    <div className="zhu-ye-left">
+                    <div className="home-left">
                         <ul>
                             {links.map((link, index) => (
                                 <li key={index}>
-                                    <Link
+                                    <NavLink
                                         to={link.to}
-                                        className={index === this.state.activeIndex ? 'active' : ''}
-                                        onClick={this.click.bind(this,index)}
+                                        className={this.state.activeIndex === index ? 'active' : ''}
+                                        activeClassName="active"
                                     >
                                         <i className={link.style}></i>
                                         <span>{link.name}</span>
-                                    </Link>
+                                    </NavLink>
                                 </li>
                             ))}
                         </ul>
@@ -89,3 +96,4 @@ export default class Navbar extends Component {
         );
     }
 }
+

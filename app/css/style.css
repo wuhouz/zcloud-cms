@@ -1,0 +1,215 @@
+
+/*重置密码弹出窗*/
+.windows{  box-shadow: 0 5px 15px rgba(13, 200, 189, 0.43);  background-color: white;  border: 1px solid rgb(13, 200, 189);  border-radius: 6px;  outline: 0;  background-clip: padding-box;  width: 500px;  margin: 15% auto;  }
+.windows-top ,.windows-center,.windows-bottom{  padding: 15px;  }
+.windows-top{  border-bottom: 1px solid #e5e5e5;  height: 24px;  color: #666;  }
+.windows-top h1 {  float: left;  font-size: 16px;  }
+.windows-top i{  float: right;  line-height: 24px;  cursor: pointer;  }
+.windows-center{  border-bottom: 1px solid #e5e5e5;  }
+.windows-center ul li input{  margin: 10px auto;  display: block;  width: 300px;  height: 30px;  border-radius: 3px;  border: 1px solid #ccc;  padding-left: 10px;  }
+.windows-bottom{  height: 30px;  }
+.windows-bottom button{  float: right;  margin-left: 10px;  }
+
+
+/*转化为合同弹出窗*/
+.windows-con{ margin: 10% auto !important;}
+.starting-time{   border-radius: 3px; width:500px; margin: 0 auto; padding: 20px;    display: inline-block;background: #eee;}
+.starting-time-top{  float: left;line-height: 23px; }
+.logQuery-center-t-d{ width: 100px;  height: 20px;  line-height: 20px;  border: 1px solid #CCC;  margin: 0 0 0 10px;  padding: 0 4px; border-radius: 3px;  float: left;}
+.logQuery-center-t-d i{ line-height: 21px;float: right;}
+.starting-left,.starting-right{ float: left;}
+.starting-left{ padding-right: 10px;}
+.starting-time i{ cursor: pointer;}
+.starting-bottom{ float: left;  padding-left: 10px;  line-height: 24px;}
+.starting-bottom span{ text-decoration:underline;}
+.money-time{clear: both; padding-top: 10px;}
+.dan-yuan{padding: 10px 0 0 0;}
+.money-time-center{float: left;padding: 0 20px;}
+.money-time-center i{line-height: 70px;color: #0dc8bd;}
+.starting-time-bottom{clear: both;padding-top: 10px;display: inherit;width: 100%;}
+.settlement {padding-top: 20px; margin-bottom: 20px;display: inline-block;width: 100%;}
+.settlement input,.money-time-left input{ width: 75px; border-radius: 3px;border: 1px solid #ccc;margin: 0 5px;height: 20px;}
+.settlement-left ,.settlement-center,.settlement-bottom{float: left;padding-right: 25px;}
+.money-time-left{float: left;  width: 200px;  background:#0dc8bd;  padding: 10px;  border-radius: 3px;}
+.settlement-bottom{color: #aaa;}
+.attachment-upload{clear: both;padding-bottom: 5px;width: 540px;}
+.attachment-upload span{font-size: 14px;}
+.attachment-upload strong{padding-left:10px; }
+.attachment-upload ul li {float: left;width: 80px; font-weight: 900; text-align: center;}
+.attachment-upload-top{    background: #dddfe2;  display: flex;  padding: 10px;}
+.attachment-upload-others{display: flex;  padding: 10px; background: #f7f7f7;}
+.attachment-upload-others li{font-weight: 100;color: #ccc;}
+
+
+/*翻页*/
+.fan-ye{ position: fixed;  height: 50px;  line-height: 50px;  width: 100%;  bottom: 0;  right: 0;  left: 120px;  }
+.fan-ye ul{ float: right;  right: 130px;  position: absolute;  }
+.fan-ye ul li{ float: left;  }
+.fan-ye ul li a{ border-radius: 30px;  border: 1px solid #ccc;  padding: 5px 10px;  margin-right: 5px;  cursor: pointer;  }
+.fan-ye ul li a:hover{ border-radius: 30px;  border: 1px solid #ccc;  padding: 5px 10px;  margin-right: 5px;  cursor: pointer;  background: #eee;  }
+
+
+/*铸云运营管理系统登陆页*/
+.zhu-bnr{  background: #09c;  height: 100%;  position: absolute;  width: 100%; }
+.zhu-bnr form{  height: 57%; }
+.zhu-bnr-center{  width: 1200px;  height: 100%;  margin: 0 auto; }
+.zhu-bnr-center ul{  text-align: center;  margin-top: 10%;  padding-top: 18%;  background: url(../images/da-logo.png) no-repeat;  height: 100%;  width: 1050px; }
+.zhu-bnr-center span{  display: block;  width: 200px;  margin: 0 auto;  font-size: 18px;  color: #fff;  padding-bottom: 30px; }
+.zhu-bnr-center input{  width: 280px;  height: 35px;  border-radius: 4px;  border: 1px solid #2cb3e0;  margin-bottom: 30px;  padding: 0 10px;  background: #2cb3e0;  color: #fff; }
+.zhu-bnr-center button{  width: 300px;  height: 35px;  border-radius: 4px;  background: #fff;  border: 1px solid #fff; }
+
+
+/*后台首页*/
+.zhu-fa-bu textarea{  width: 100%;  height: 80px;  border: 1px solid #ddd;  font-size: 12px;  color: #999;  display: block;  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);  border-radius: 3px ;  resize: none;  }
+.tie-li {  padding: 10px;  }
+.fa-bu{  border-bottom: 1px solid #ddd;  border-left: 1px solid #ddd;  border-right: 1px solid #ddd;  height: 50px;  width: 100%;  border-radius: 3px;  margin-top: -3px;  }
+.fa-bu-left{  float: left;  height: 50px;  line-height: 52px;  padding-left: 10px;  cursor: pointer;  }
+.fa-bu-right{  float: right;  height: 50px;  line-height: 52px;  padding-right: 10px;  }
+.fa-bu-nei{  height: 50px;  line-height: 30px;  padding:2px 10px;  }
+.fa-bu-nei span{  display: block;  padding: 0 5px;  float: left;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  max-width: 200px;  }
+.fa-bu-nei i{  float: left;  display: block;  padding-top: 2px;  }
+.fa-bu-nei .fa-close{  padding-top: 9px;  cursor: pointer;  }
+.zhu-kong-jia{  width: 70%;    border-radius: 3px;  float: left;  height: 70%;  bottom: 10px;  overflow: auto;  border: 1px solid #eee; background: url("../images/china.png")  }
+.zhu-yi-ji{  width: 29%;  float: right;  border: 1px solid #0dc8bd;  height: 70%;  border-radius: 3px;  overflow: auto;  }
+.zhu-yi-ji ul li{  padding: 20px 10px 0 20px;  height: 15px;  }
+.zhu-yi-ji ul li span {  padding-right:10px ;  max-width:100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+
+
+/*帐号维护页面*/
+.yan-se{  color: #999;  }
+.niu-sou-suo{margin-right: 0!important;}
+.gen-huan{float: left;margin-right: 7px;}
+
+
+/*列表页布局--帐号维护*/
+.list{  height: 75%;  position: fixed;  right: 19px;  left: 120px;  padding-top: 5px;  }
+.list-ul{  padding: 10px;  background: #f2f2f2;  height: 20px;  cursor:default !important;  }
+.list ul{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  cursor: pointer;  }
+.list ul:hover{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  background: #f2f2f2;  }
+.list ul li {  float: left;  width: 10%;  }
+.list ul li strong {  font-size: 13px; min-width:20px; max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.list ul li input{  border-radius: 3px;  border: 1px solid #ccc;  height:28px;  padding-left: 10px; width: 85px; margin-right: 5px;}
+.list ul li span{  max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;  }
+.list ul li button{  margin-right: 10px;  }
+.yan-se-hui{  color: #aaa!important;  }
+
+
+
+
+
+
+/*列表页布局--联系人*/
+.list-two{  height: 75%;  position: fixed;  right: 19px;  left: 120px;  padding-top: 5px;  }
+.list-two ul{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  cursor: pointer;  }
+.list-two ul:hover{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  background: #f2f2f2;  }
+.list-two ul li {  float: left;  width: 16%;  }
+.list-two ul li strong {  font-size: 13px; min-width:20px; max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.list-two ul li input{  border-radius: 3px;  border: 1px solid #ccc;  height:28px;  padding-left: 10px; width: 85px; }
+.list-two ul li span{  max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;  }
+.list-two ul li button{  margin-right: 10px;  }
+
+
+
+/*列表页布局--联系日志*/
+.list-three{  height: 75%;  position: fixed;  right: 19px;  left: 120px;  padding-top: 5px;  }
+.list-three ul{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  cursor: pointer;  }
+.list-three ul:hover{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  background: #f2f2f2;  }
+.list-three ul li {  float: left;  width: 20%;  }
+.list-three ul li strong {  font-size: 13px; min-width:20px; max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.list-three ul li input{  border-radius: 3px;  border: 1px solid #ccc;  height:28px;  padding-left: 10px; width: 85px; }
+.list-three ul li span{  max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;  }
+.list-three ul li button{  margin-right: 10px;  }
+
+
+/*列表页布局--客户信息详情页-联系人*/
+.list-four{    padding-top: 5px;  }
+.list-four ul{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  cursor: pointer;  }
+.list-four ul:hover{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  background: #f2f2f2;  }
+.list-four ul li {  float: left;  width: 14%;  }
+.list-four ul li strong {  font-size: 13px; min-width:20px; max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.list-four ul li input{  border-radius: 3px;  border: 1px solid #ccc;  height:28px;  padding-left: 10px; width: 85px; }
+.list-four ul li span{  max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;     float: left;  }
+.list-four ul li i{float: left;line-height: 37px;padding-left: 4px;}
+.list-four ul li button{  margin-right: 10px;  }
+
+
+
+/*列表页布局--客户信息详情页-联系人*/
+.list-five{    padding-top: 5px;  }
+.list-five ul{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  cursor: pointer;  }
+.list-five ul:hover{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  background: #f2f2f2;  }
+.list-five ul li {  float: left;  width: 11%;  }
+.list-five ul li strong {  font-size: 13px; min-width:20px; max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.list-five ul li input{  border-radius: 3px;  border: 1px solid #ccc;  height:28px;  padding-left: 10px; width: 85px; }
+.list-five ul li span{  max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;     float: left;padding-right: 10px; }
+.list-five ul li i{float: left;line-height: 37px;padding-left: 4px;}
+.list-five ul li button{  margin-right: 10px;  }
+
+/*列表页布局--订单列表*/
+.list-six{    padding-top: 5px;  }
+.list-six ul{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  cursor: pointer;  }
+.list-six ul:hover{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  background: #f2f2f2;  }
+.list-six ul li {  float: left;  width: 9%;  }
+.list-six ul li strong {  font-size: 13px; min-width:20px; max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.list-six ul li input{  border-radius: 3px;  border: 1px solid #ccc;  height:28px;  padding-left: 10px; width: 85px; }
+.list-six ul li span{  max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;     float: left;  }
+.list-six ul li i{float: left;line-height: 37px;padding-left: 4px;}
+.list-six ul li button{  margin-right: 10px;  }
+
+
+/*列表页布局--合同列表*/
+.list-seven{    padding-top: 5px;  }
+.list-seven ul{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  cursor: pointer;  }
+.list-seven ul:hover{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  background: #f2f2f2;  }
+.list-seven ul li {  float: left;  width: 8%;  }
+.list-seven ul li strong {  font-size: 13px; min-width:20px; max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.list-seven ul li input{  border-radius: 3px;  border: 1px solid #ccc;  height:28px;  padding-left: 10px; width: 85px; }
+.list-seven ul li span{  max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;     float: left;  }
+.list-seven ul li i{float: left;line-height: 37px;padding-left: 4px;}
+.list-seven ul li button{  margin-right: 10px;  }
+
+
+
+/*客户信息页面*/
+.page-det-top{  border-bottom: 1px solid #ccc;  height: 50px;  line-height: 50px;  }
+.page-det-top span {  font-size: 13px;  font-weight: 900;  padding-right: 20px;  }
+.page-det-center input{border-radius: 3px;border: 1px solid #ccc;padding:2px 5px; width: 166px;}
+.page-det-bottom{  clear: both;  padding-left: 20px;  padding-top: 10px;  }
+.page-det-bottom textarea{  width:540px;  border: 1px solid #ccc;  border-radius: 3px;  display: block;  height: 100px;  resize: none;  }
+.page-det-left,.page-det-right{  width:500px;  padding-top: 20px;  padding-left: 20px;  float: left;  }
+.page-det-left ul li ,.page-det-right ul li{  height: 40px;  line-height: 40px;  }
+.page-det-left .zhu-se-diao{padding-left: 10px;}
+.page-det-left button{margin: 0 0 0 10px;}
+.page-det-left input{width: 240px;}
+.page-det-left textarea{width: 500px;  height: 100px;  padding: 2px 5px;  border: 1px solid #ccc;  border-radius: 3px;  resize: none;}
+.page-det-bottom button{  margin-top: 20px;  }
+.contacts-top{  padding-top: 50px; height: 32px;}
+.contacts-top-l {float: left;font-size: 16px;font-weight: 900;border-radius: 3px;color: #0dc8bd;}
+.contacts-top-r{float: right;}
+.padding-ling{padding-right: 15px;}
+.mar-but{margin-left: 20px;}
+
+
+/*联系日志详情页*/
+.jia-tes{padding-left: 355px;color: #ccc;}
+.jia-time{margin-left: -24px;}
+
+
+/*订单详情页*/
+.ding-dan{    clear: both;      width: 100%;   border-bottom: none;       padding: 10px 20px;}
+.ding-dan-bo{padding:20px 0 0 20px;}
+.he-tong-lan{width: 500px; background: #f7f7f7;    padding: 20px;}
+
+/*移交弹出窗*/
+.tra-hi{height: 255px;    display: inline-table;}
+.tra-hi .tra-left{float:left;}
+.tra-bottom{     height: 200px;  background: #eee;  float: left;  width: 450px;  margin-top: 10px;  border-radius: 3px;overflow: auto;padding: 10px;}
+.tra-bottom ul li{height: 20px;padding: 2px 5px;}
+.tra-bottom ul li:hover{height: 20px;background: #fff;padding: 2px 5px;border-radius: 3px;}
+.tra-left button{margin: 2px 10px;}
+.tra-bottom span{margin-right: 50px; width: 200px;display:table-cell;}
+
+
+
+/*删除弹出窗*/
+.windows-bottom .red{line-height: 30px;}

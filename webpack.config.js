@@ -1,13 +1,20 @@
 /**
  * Created by wuhou on 2017/5/2.
  */
-var path = require('path');
+var webpack = require('webpack'),
+    path = require('path'),
+    fs = require('fs'),
+    HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: path.resolve(__dirname, 'app/app.js'),
+    entry: [ 'webpack/hot/dev-server', path.resolve(__dirname, 'app/app.js') ],
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+    },
+    devServer:{
+        inline: true,
+        port: 8099
     },
     module: {
         loaders: [
@@ -29,8 +36,14 @@ module.exports = {
             },
             {
                 test: /\.(eot|svg|ttf|woff|woff2)$/,
-                loader: 'file-loader?limit=8192'
+                loader: 'file-loader'
             },
         ]
-    }
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './index.html'
+        }),
+        new webpack.HotModuleReplacementPlugin()
+    ],
 };

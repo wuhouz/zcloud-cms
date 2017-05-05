@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 export default class Logs extends Component {
     render() {
         return (
-            <div className="zhu-ye-right">
+            <div className="home-right">
                 <h1>我是联系日志模块</h1>
             </div>
         );

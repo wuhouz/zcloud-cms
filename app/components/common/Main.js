@@ -8,8 +8,10 @@ import {
     Link
 } from 'react-router-dom';
 
+import '../../css/main.css';
+
 import AccountManagement from '../accountManagement/AccountManagement';
-import ClientInfo from '../clientInfo/ClientInfo';
+import ClientInfo from '../ClientInfo';
 import OrderInfo from '../orderInfo/OrderInfo';
 import Contracts from '../contracts/Contracts';
 import Logs from '../logs/Logs';
@@ -50,7 +52,7 @@ const routes = [
 export default class Main extends Component {
     render(){
         return (
-            <div className="zhu-ye-right">
+            <div className="home-right">
                 {routes.map((route, index) => (
                     <Route
                         key={index}

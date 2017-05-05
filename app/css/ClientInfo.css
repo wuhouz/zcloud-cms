@@ -1,0 +1,9 @@
+/*列表页布局--客户信息*/
+.list-one{  height: 75%;  position: fixed;  right: 19px;  left: 120px;  padding-top: 5px;  }
+.list-one ul{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  cursor: pointer;  }
+.list-one ul:hover{  padding: 10px;  height: 35px;  line-height: 35px;  border-bottom: 1px solid #ccc;  background: #f2f2f2;  }
+.list-one ul li {  float: left;  width: 12%;  }
+.list-one ul li strong {  font-size: 13px; min-width:20px; max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  }
+.list-one ul li input{  border-radius: 3px;  border: 1px solid #ccc;  height:28px;  padding-left: 10px; width: 85px; }
+.list-one ul li span{  max-width: 100px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;  }
+.list-one ul li button{  margin-right: 10px;  }

@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 
 import '../../css/header.css';
-import imgLogo from '../../../build/images/logo.png';
+import imgLogo from '../../images/logo.png';
 
 export default class Header extends Component {
     getLogo(){
@@ -21,7 +21,7 @@ export default class Header extends Component {
 
     render(){
         return(
-            <div className="zhu-ye-top">
+            <div className="home-top">
                 {this.getLogo()}
                 <div className="zhu-tui">
                     <span>当前用户:</span>

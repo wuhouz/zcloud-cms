@@ -1,0 +1,20 @@
+/*内容主区域开始时间／结束时间样式*/
+.button{  height: 50px;  line-height: 50px;  }
+
+.button-zhong {  float: right;  padding-right: 20px;width: 482px;  }
+.button-zhong span{  padding: 0 5px;  }
+.button-zhong input{  height: 28px;  border-radius: 3px;  border: 1px solid #ccc;  }
+.button-zhong select{height: 25px;}
+.button-zhong i ,.page-det-right li i{padding-right: 5px;margin-left: -20px;}
+
+.button-left{  float: left;  }
+.button-right{  float: right;  padding-top: 9px;  }
+.button-left button{  margin-right: 10px;  }
+.button-right input{  padding-left: 10px;  float: left;  height: 30px;  border-radius: 3px;  border: 1px solid #ccc;   margin-right: 20px; }
+.button-right span{  border: 1px solid #0dc8bd;  height: 30px;  display: block;  width: 31px;  float: left;  margin-left: -3px;  border-radius: 3px;  z-index: 100;  background: #0dc8bd;  }
+.button-right span i{  position: absolute;  padding: 9px;  color: #fff;  cursor: pointer;  }
+
+.table-header{ padding: 10px;  background: #f2f2f2;  height: 20px;  cursor:default !important; }
+
+.max-dian{  max-width: 80px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  display: block;  float: left;  }
+.list-input{  width: 18px !important;   border-radius: 3px;  border: 1px solid #ccc;  float: left;  margin-top: 2px;  }
