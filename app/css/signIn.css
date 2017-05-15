@@ -1,0 +1,41 @@
+/*铸云运营管理系统登陆页*/
+.zhu-bnr{  background: #09c;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.zhu-bnr-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -110px;
+    margin-left: -150px;
+}
+
+.zhu-bnr-center span{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 30px;
+    text-align: center; }
+
+.zhu-bnr-center input{
+    width: 280px;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #2cb3e0;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    background: #2cb3e0;
+    color: #fff; }
+
+.zhu-bnr-center button{
+    width: 300px;
+    height: 35px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #fff;
+}

@@ -2,6 +2,7 @@
  * Created by wuhou on 2017/5/3.
  */
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import {
     BrowserRouter as Router,
     Route,
@@ -19,13 +20,13 @@ import Contacts from '../contacts/Contacts';
 
 const routes = [
     {
-        exact: true,
+        exact: false,
         path: '/accountManagement',
         component: AccountManagement
     },
     {
-        exact: false,
-        path: '/clientInfo',
+        exact: true,
+        path: '/',
         component: ClientInfo
     },
     {
@@ -34,17 +35,17 @@ const routes = [
         component: OrderInfo
     },
     {
-        exact: true,
+        exact: false,
         path: '/contracts',
         component: Contracts
     },
     {
-        exact: true,
+        exact: false,
         path: '/logs',
         component: Logs
     },
     {
-        exact: true,
+        exact: false,
         path: '/contacts',
         component: Contacts
     },

@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 export default class AccountManagement extends Component {
     render() {
         return (
-            <div classNameName="home-right">
+            <div className="home-right">
                 <h1>我是账户维护模块</h1>
             </div>
         );

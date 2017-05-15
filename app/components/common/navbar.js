@@ -19,34 +19,30 @@ const links = [
         style: 'fa fa-cogs fa-1-3x'
     },
     {
-        to: '/clientInfo',
+        to: '/',
         name: '客户信息',
         style: 'fa fa-address-card fa-1-3x',
-        isActive: true
+        exact: true
     },
     {
         to: '/orderInfo',
         name: '订单信息',
         style: 'fa fa-newspaper-o fa-1-3x',
-        isActive: false
     },
     {
         to: '/contracts',
         name: '合同信息',
         style: 'fa fa-gavel fa-1-3x',
-        isActive: false,
     },
     {
         to: '/contacts',
         name: '联系人',
         style: 'fa fa-user-circle-o fa-1-3x',
-        isActive: false,
     },
     {
         to: '/logs',
         name: '联系日志',
         style: 'fa fa-bars fa-1-3x',
-        isActive: false,
     },
 ];
 
@@ -80,8 +76,8 @@ export default class Navbar extends Component {
                                 <li key={index}>
                                     <NavLink
                                         to={link.to}
-                                        className={this.state.activeIndex === index ? 'active' : ''}
                                         activeClassName="active"
+                                        exact={link.exact}
                                     >
                                         <i className={link.style}></i>
                                         <span>{link.name}</span>

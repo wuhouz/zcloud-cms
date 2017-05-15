@@ -31,6 +31,16 @@ class Top extends Component {
 }
 
 class Table extends Component {
+
+    /*componentWillMount(){
+        const url = 'http://www.czloud.com/project/task/list/v1/?type=myDuty&startNum=0&count=1000&project_id=69c68048-9487-4e8a-a12a-0bfc4c3eb555&name=&language=zh_CN';
+        const url1 = 'http://webservice.36wu.com/weatherService.asmx';
+        fetch(url1).then((res) => res.json()).then((json) => {
+            console.log(json);
+        }).catch((error) => {
+            console.log(error);
+        });
+    }*/
     render(){
         return (
             <div className="list-one">
